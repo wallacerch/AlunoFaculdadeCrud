@@ -19,7 +19,7 @@ namespace AlunoFaculdadeCrud.Models
         public string Cpf { get; set; }
 
         [Required(ErrorMessage = "A matrícula do aluno é obrigatória.")]
-        [StringLength(10, MinimumLength = 10, ErrorMessage = "A matrícula deve conter 11 caracteres.")]
+        [StringLength(10, MinimumLength = 10, ErrorMessage = "A matrícula deve conter 10 caracteres.")]
         public string Matricula { get; set; }
         public CursoModel Curso { get; set; }
 
